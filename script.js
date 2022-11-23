@@ -26,8 +26,7 @@ function verificar() {
             } else {
                 res.innerHTML = 'Data Inválida!'
             }
-            res.innerHTML = '<p></p>'
-            res.innerHTML += `Minha lembrança com você! \u{1F970}`
+            res.innerHTML = `Minha lembrança com você! \u{1F970}`
             res.appendChild(img)
     }
 }
