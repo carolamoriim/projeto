@@ -23,7 +23,9 @@ function verificar() {
                 img.setAttribute('src', 'novembro.png')
             } else if (month == 12) {
                 img.setAttribute('src', 'dezembro.png')
-            } 
+            } else {
+                res.innerHTML = 'Data Inválida!'
+            }
             res.innerHTML = '<p></p>'
             res.innerHTML += `Minha lembrança com você! \u{1F970}`
             res.appendChild(img)
